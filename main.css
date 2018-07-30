@@ -43,6 +43,7 @@ li a:hover:not(.active) {
 
 
 #page-title {
+    display: none; /* Hiding while we try hero text as alternative */
     float: left;
     font-size: 1em;
     font-weight: bold;
