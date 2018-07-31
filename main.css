@@ -258,8 +258,19 @@ input {
 }
 
 
+#name {
+    width: 15em;
+}
+
+
+#email {
+    width: 15em;
+}
+
+
 #request {
     height: 5em;
+    width: 15em;
 }
 
 
