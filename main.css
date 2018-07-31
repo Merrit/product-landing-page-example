@@ -356,4 +356,9 @@ input {
     .form-div {
         width: 80%;
     }
+
+
+    li a {
+        padding: 22px 12px;
+    }
 }
