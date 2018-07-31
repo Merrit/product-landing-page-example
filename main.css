@@ -362,4 +362,9 @@ input {
     li a {
         padding: 22px 12px;
     }
+
+
+    li a:hover:not(.active) {
+        background-color: none;
+    }
 }
