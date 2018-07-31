@@ -260,4 +260,9 @@ li a:hover:not(.active) {
     #packages {
         width: 80%;
     }
+
+
+    #packages-text p {
+        font-size: 0.7em;
+    }
 }
