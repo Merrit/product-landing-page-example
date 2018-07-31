@@ -204,6 +204,18 @@ li a:hover:not(.active) {
 }
 
 
+#plant-video-div {
+}
+
+
+#video {
+    width: 60%;
+    height: 35em;
+    display: block;
+    margin: 0 auto;
+}
+
+
 /* Begin formatting for mobile devices */
 
 @media (max-width: 900px) {
@@ -219,12 +231,6 @@ li a:hover:not(.active) {
         display: flex;
         justify-content: center;
         align-items: center;
-        /*
-        top: 35%;
-        left: 50%;
-        justify-self: center;
-        text-align: center;
-        */
         color: white;
         width: 70%;
         font-size: 1em;
@@ -264,5 +270,13 @@ li a:hover:not(.active) {
 
     #packages-text p {
         font-size: 0.7em;
+    }
+
+   
+    #video {
+        width: 90%;
+        height: 15em;
+        display: block;
+        margin: 0 auto;
     }
 }
