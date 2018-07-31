@@ -365,6 +365,6 @@ input {
 
 
     li a:hover:not(.active) {
-        background-color: none;
+        background-color: #333;
     }
 }
