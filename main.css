@@ -204,15 +204,70 @@ li a:hover:not(.active) {
 }
 
 
-#plant-video-div {
-}
-
-
 #video {
     width: 50%;
     height: 35em;
     display: block;
     margin: 0 auto;
+}
+
+
+.form-div {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(26, 26, 26);
+    font-size: 2em;
+    margin: auto;
+    color: grey;
+    padding-top: 0.7em;
+    padding-left: 0.5em;
+    padding-right: 0.4em;
+    padding-bottom: 0.7em;
+    box-shadow: 1px 5px 10px 1px rgba(0,0,0,0.55);
+    text-align: center;
+    display: grid;
+    grid-row-gap: 0.3em;
+}
+
+
+#form {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 1em;
+}
+
+
+#form-labels {
+    text-align: right;
+}
+
+
+#form-fields {
+    text-align: left;
+    padding-left: 0.5em;
+}
+
+
+input {
+    font-size: 0.6em;
+}
+
+
+#form-seperator {
+    width: 60%;
+}
+
+
+#request {
+    height: 5em;
+}
+
+
+#submit {
+    grid-column: 1/3;
+    width: 5em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -278,5 +333,15 @@ li a:hover:not(.active) {
         height: 15em;
         display: block;
         margin: 0 auto;
+    }
+
+
+    input {
+        font-size: 0.5em;
+    }
+
+
+    .form-div {
+        width: 80%;
     }
 }
